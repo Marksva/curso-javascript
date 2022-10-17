@@ -1,6 +1,8 @@
 let email_acesso = "mark.mark@email.com";
 let email_cadastro = "Mark.Mark@email.com";
 
+// toUpperCase() and toLowerCase()
+
 // Quando os dados tiverem sensibilidade à diferença entre caracteres maiúsculos e minúsculos será necessário usar os métodos nativos para resolver esse problema. 
 if (email_acesso.toLowerCase() == email_cadastro.toLowerCase()) {
     console.log("Foi enviado um link de ativação para o seu email");

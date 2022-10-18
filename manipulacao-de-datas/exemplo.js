@@ -1,5 +1,5 @@
 // vamos criar duas datas DataUltimoAcesso e dataAtual, dessa forma criaremos uma mensagem para o usuario. Bom dia, boa tarde, boa noite. 
-// Em seguida iremos verificar quanto tempo o usuario ficou ausente. 
+// em seguida iremos verificar quanto tempo o usuario ficou ausente. 
 
 const DataUltimoAcesso = new Date('2022/10/15 17:00:00');
 const dataAtual = new Date(); 

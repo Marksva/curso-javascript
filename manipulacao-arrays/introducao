@@ -1,0 +1,25 @@
+muito comum utilizarmos um array em um projeto e por isso precisamos aprender como manipulá-lo.
+Neste curso você aprenderá a manipular um array utilizando as seguintes funções nativas:
+As vantagens do uso das funções nativas (métodos de array) são:
+-Redução do código repetitivo.
+-Economia de tempo.
+-Aceleração no processo de desenvolvimento
+
+
+push() =
+
+splice() =
+
+pop() =
+
+shift() =
+
+forEach() = 
+
+map() = 
+
+filter() =
+
+reduce() =
+
+sort() =

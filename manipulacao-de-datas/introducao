@@ -1,0 +1,8 @@
+Manipular data no JavaScript significa utilizar o objeto do tipo Date. Por isso neste curso você vai aprender os seguintes conceitos:
+
+Criar uma data
+Instanciar o objeto do tipo Date.
+Manipular uma data
+Pegar as informações da data (por exemplo: ano, mês, dia, hora etc.).
+Alterar um valor da data (por exemplo: adicionar uma hora, um mês etc.).
+No Flow abaixo você vai aprender o que é Date:

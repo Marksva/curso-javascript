@@ -1,7 +1,8 @@
 <h1> Curso de JavaScript </h1>
 
 <p>Curso Completo de JavaScript feito na plataforma DevMedia.</p>
-<p>Principais tópicos</p>
+<p>Autenticidade do Certificado <a href="https://www.devmedia.com.br/certificado/tecnologia/javascript/mark-anthony-da-silva-junior">Clique Aqui</a><p>
+<h2>Principais tópicos</h2>
 <ul>
 <li>Variaveis e Operadores.</li>
 <li>Objetos.</li>
@@ -16,4 +17,3 @@
 <li>Modulos.</li>
 <li>Aplicação em camadas.</li>
 </ul>
-<p>Para visualizar meu certificando clique <a href="https://www.devmedia.com.br/certificado/tecnologia/javascript/mark-anthony-da-silva-junior">Aqui</a><p>

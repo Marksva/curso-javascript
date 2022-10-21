@@ -6,13 +6,10 @@ const carros = [
     { marca: 'Ford', modelo: 'KA+', anoFabricacao: 2018 },
     { marca: 'Fiat', modelo: 'Cronos', anoFabricacao: 2020 },
 ];
-
 function retornaCarro(carro) {
     return carro.marca + ' ' + carro.modelo + ' ano: ' + carro.anoFabricacao;
 }
-
 const novosCarros = carros.map(retornaCarro);
-
 console.log(novosCarros);
 /*
  vai imprimir:
@@ -27,6 +24,11 @@ console.log(novosCarros);
  ]
 */
 
+
+
+
+
+
 // Outro exemplo é um array que possui os meses do ano. Utilizamos o map para criar um array com apenas as três primeiras letras de cada elemento.
 const meses = [
     "Janeiro", "Fevereiro", "Março", "Abril",
@@ -35,7 +37,7 @@ const meses = [
 ];
 
 function abreviar(mes) {
-    return mes.substr(0, 3)
+    return mes.substr(0, 3);
 }
 
 const mesesAbreviados = meses.map(abreviar);

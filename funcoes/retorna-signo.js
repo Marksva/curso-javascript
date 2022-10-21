@@ -43,7 +43,7 @@ const retorna_signo = (signos, data) => {
 
 }
 
-let data_app = new Date();
+let data_app = new Date('2022-12-22');
 
 const nome_signo = retorna_signo(colecao_signos, data_app);
 

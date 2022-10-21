@@ -19,9 +19,9 @@ import entradaDados from 'readline-sync';
 
 // Soma de dois numeros
 // obs: a string so deve ser convertida para calculos de soma
-// console.log('Calculadora de soma entre x e y: \n');
-// let x = entradaDados.question('Valor de x: ');
-// let y = entradaDados.question('Valor de y: ');
-// let soma = Number(x) + Number(y);
-// console.log(`${x} + ${y} = ${soma}`)
+console.log('Calculadora de soma entre x e y: \n');
+let x = entradaDados.question('Valor de x: ');
+let y = entradaDados.question('Valor de y: ');
+let soma = Number(x) + Number(y);
+console.log(`${x} + ${y} = ${soma}`)
 

@@ -9,7 +9,7 @@ console.log(resultado); // JavaScript
 let frase2 = "Eu sou programador JavaScript";
 let resultado2 = frase2.substring(7, 18);
 console.log(resultado2); // programador
-
+"Estou aprendendo JavaScript na DevMedia"
 
 // o metodo substr(posicao inicial da substring , quantidade de caractere)
 // o metodo substring( posicao inicial da substring a ser extraida , posicao final da substring a ser extraida ); 

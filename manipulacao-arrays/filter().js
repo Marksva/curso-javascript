@@ -12,7 +12,9 @@ function retornarCarroFiat(carro) {
 
 const carrosFiat = carros.filter(retornarCarroFiat);
 
-console.log(carrosFiat);
+carrosFiat.forEach(e =>{
+  console.log(e.modelo)
+})
 
 /*
 * vai imprimir:

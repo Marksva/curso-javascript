@@ -1,5 +1,5 @@
 const dataAtual = new Date();
-const dataPostagem = new Date('2022-10-17 12:30');
+const dataPostagem = new Date('2022-10-28 13:40:00');
 
 // Pegando o timestamp das datas
 const timeAtual = dataAtual.getTime();

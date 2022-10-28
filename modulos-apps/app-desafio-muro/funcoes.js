@@ -6,14 +6,13 @@ const iniciar = () => {
     console.log('-----------------Bem Vindo-------------------');
 
     do {
-        var escolha = entradaDados.question('Digite uma altura para o muro de 1 a 8: ');
+        let escolha = entradaDados.question('Digite uma altura para o muro de 1 a 8: ');
 
     } while (escolha < 1 || escolha > 8);
 
     criaMuroNivel3(escolha);
 }
 
-//nivel 1
 const criaMuroNivel1 = (altura) => {
 
     let muro = '#';
@@ -25,7 +24,6 @@ const criaMuroNivel1 = (altura) => {
 
 }
 
-//nivel 2 
 const criaMuroNivel2 = (altura) => {
     let muro = '#';
     let pontos = '.';
@@ -37,7 +35,7 @@ const criaMuroNivel2 = (altura) => {
     }
 
 }
-//nivel 3 
+
 const criaMuroNivel3 = (altura) => {
 
     let muro = '#';
@@ -51,8 +49,5 @@ const criaMuroNivel3 = (altura) => {
 
 
 }
-
-
-
 
 export default iniciar; 

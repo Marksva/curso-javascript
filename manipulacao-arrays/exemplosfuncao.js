@@ -33,5 +33,5 @@ const carros = [
     { marca: 'Fiat', modelo: 'Cronos', anoFabricacao: 2020 },
 ];
 
-const carrosFiat = carros.filter((carro)=> carro.marca == 'Fiat');
+const carrosFiat = carros.filter((carro) => carro.marca === 'Fiat');
 console.table(carrosFiat);

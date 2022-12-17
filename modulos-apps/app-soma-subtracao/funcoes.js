@@ -10,22 +10,20 @@ const Subtracao = (x, y) => {
 }
 
 const Menu = () => {
-    
+
     let continuar = '';
     do {
-
         console.log('[+] - Somar');
         console.log('[-] - Subtrair');
-
         let escolha = entradaDados.question('Digite o operador que deseja: ');
-
+        
         switch (escolha) {
             case '+':
                 let n1 = entradaDados.question('Digite um numero: ');
+                let operador = entradaDados.question('[+][-][*][/]:');
                 let n2 = entradaDados.question('Digite um numero: ');
                 console.log(`[${n1} + ${n2} = ${Soma(n1, n2)}]\n`);
                 break;
-
             case '-':
                 let num1 = entradaDados.question('Digite um número: ');
                 let num2 = entradaDados.question('Digite um número: ');
@@ -34,10 +32,7 @@ const Menu = () => {
             default:
                 console.log('[erro] Ops operador não identificado!');
         }
-
         continuar = entradaDados.question('Digite [s] para continuar ou qualquer tecla para sair.');
-
-
     } while (continuar == 's' || continuar == 'S')
 }
 

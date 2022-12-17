@@ -13,7 +13,6 @@
 
 
 
-
 // const jogos = [
 //     { id: 1, nome: 'Galaxian', anoLancamento: 1979, plataforma: 'Fliperama' },
 //     { id: 2, nome: 'Donkey Kong', anoLancamento: 1981, plataforma: 'Fliperama' },

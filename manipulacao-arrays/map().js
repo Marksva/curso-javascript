@@ -11,6 +11,8 @@ function retornaCarro(carro) {
 }
 const novosCarros = carros.map(retornaCarro);
 console.log(novosCarros);
+
+
 /*
  vai imprimir:
  [
